@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>JavaScript/CSS3 Departure Board</title>
+		<title>Sorry Bibi</title>
 		<link rel="stylesheet" href="./css/departure-board.css" />
 	</head>
 	
@@ -11,10 +11,10 @@
 		<script>
 		
 			var board = new DepartureBoard (document.getElementById ('test'), { rowCount: 2, letterCount: 25 }); 
-			board.setValue (['19:30 London King\'s Cross', '19:42 Sheffield']);
+			board.setValue (['19:30 Iran-Lausanne-Yemen', 'Sorry Bibi, the train has departed.']);
 			
 			window.setTimeout (function () {
-			 	board.setValue ('19:42 Sheffield');
+			 	board.setValue ('Try again.');
 			}, 12000);
 
 		</script>
